@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Logg">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints"
+        android:background="#ffffff">
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/logo"
+            android:layout_marginTop="50dp"/>
+
+        <EditText
+            android:id="@+id/user"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:paddingLeft="20dp"
+            android:inputType="textPersonName"
+            android:hint="User Name"
+            android:textColorHint="#767474"
+            android:layout_gravity="center"
+            android:layout_marginTop="100dp"
+            android:textColor="@color/lis_tex"
+            android:textStyle="italic"
+            android:background="@drawable/editext"/>
+
+        <EditText
+            android:id="@+id/pwd"
+            android:layout_marginTop="20dp"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:inputType="textPassword"
+            android:layout_gravity="center"
+            android:background="@drawable/editext"
+            android:textColorHint="#767474"
+            android:paddingLeft="20dp"
+            android:textColor="@color/lis_tex"
+            android:textStyle="italic"
+            android:hint="Password" />
+
+        <Button
+            android:id="@+id/log"
+            android:layout_width="300dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            android:background="@drawable/button2"
+            android:layout_marginTop="20dp"
+            android:textColor="#ffffff"/>
+
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
